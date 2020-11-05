@@ -8,6 +8,7 @@ import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } fr
 const initialFormState = { name: '', description: '' }
 
 function App() {
+
     const [notes, setNotes] = useState([]);
     const [formData, setFormData] = useState(initialFormState);
 
